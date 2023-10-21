@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="gamestyles.css">
+</head>
+<body>
+<div id="mainblock" class="mainblock">
+    <h1>TIC TAC TOE GAME</h1>
+    <p>Player one:X</p>
+    <p>Player two:O</p>
+    <br>
+   <table class="table" id="table" border="1" >
+       <tr>
+           <td id="block1" onclick="winordraw('block1')" >  </td>
+           <td id="block2" onclick="winordraw('block2')" >  </td>
+           <td id="block3" onclick="winordraw('block3')" >  </td>
+       </tr>
+       <tr>
+           <td id="block4" onclick="winordraw('block4')" >  </td>
+           <td id="block5" onclick="winordraw('block5')" >  </td>
+           <td id="block6" onclick="winordraw('block6')" >  </td>
+       </tr>
+       <tr>
+           <td id="block7" onclick="winordraw('block7')" >  </td>
+           <td id="block8" onclick="winordraw('block8')" >  </td>
+           <td id="block9" onclick="winordraw('block9')" >  </td>
+       </tr>
+   </table>
+    <p id="para"></p>
+    <br>
+    <input type="button" hidden="hidden" id="Playagain" value="Playagain" onclick="newgame()">
+
+</div>
+<script src="tictactoevalidation.js">
+</script>
+
+</body>
+</html>

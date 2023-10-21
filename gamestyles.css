@@ -1,0 +1,23 @@
+.mainblock
+{
+    margin-left: 25%;
+}
+.blocks
+{
+    position: relative;
+    height: 100px;
+    width: 100px;
+}
+.table
+{
+    border: black;
+    height: 500px;
+    width: 500px;
+}
+td
+{
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    font-size: 50px;
+}
